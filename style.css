@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dangrek&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: floralwhite;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    transform: translateX(-50%);
+    left:50%;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    align-items: center;display: inline-block;
+    margin-top: 5%;
+}
+
+nav ul{
+    float: left;
+}
+nav ul li{
+    margin-right: 20px; 
+    list-style: none;
+    float: left; 
+}
+
+.menu li a{
+    text-decoration: none;
+    font-size: 2rem;
+    color:black;
+    position: relative;
+    font-family: 'Dangrek', cursive;
+}
+
+.menu li a:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 3px;
+    transition: 2s;
+    background-color: purple;
+}
+
+nav ul li a:hover::after{
+    color: gray;
+    transition: 1s;
+    width: 100%;
+  
+}
+img {
+    margin: 5% auto;
+    width: auto;
+    height: 40vh;
+    border-radius: 60%;
+}
+h2 {
+    font-family: 'Dangrek', cursive;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.icons {
+  display: inline-block;
+
+}
+
+.icons ul {
+    font-size: 2rem;
+    list-style: none;
+    float: left;
+   
+
+}
+
+.icons ul li{
+    float: left;
+    margin: 0.8rem 1rem;
+   
+}
+
+.icons ul li a{
+    color: black;
+}
+
+.icons ul li a:hover{
+    color: gray;
+}
